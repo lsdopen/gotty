@@ -1,5 +1,9 @@
 FROM alpine:latest
 
+LABEL org.opencontainers.image.authors="seagyn@lsdopen.io"
+LABEL org.opencontainers.image.title="GoTTY Docker"
+LABEL org.opencontainers.image.description="A Docker image for GoTTY."
+
 # This is the version of Gotty we're running
 ARG GOTTY_RELEASE=gotty_v1.3.0_linux_amd64.tar.gz
 
